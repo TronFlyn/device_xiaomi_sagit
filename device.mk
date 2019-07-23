@@ -14,9 +14,6 @@
 # limitations under the License.
 #
 
-# AAPT
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi
-
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
@@ -57,7 +54,7 @@ PRODUCT_PACKAGES += \
 include $(LOCAL_PATH)/vendor_prop.mk
 
 # Miui Camera
-$(call inherit-product, device/xiaomi/miuicamera/miuicamera.mk)
+$(call inherit-product, vendor/MiuiCamera/miuicamera.mk)
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/sagit/sagit-vendor.mk)
