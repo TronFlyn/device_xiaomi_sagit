@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_sagit.mk
+    $(LOCAL_DIR)/aicp_sagit.mk
