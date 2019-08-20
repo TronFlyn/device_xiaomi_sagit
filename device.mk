@@ -58,3 +58,9 @@ $(call inherit-product, vendor/MiuiCamera/miuicamera.mk)
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/sagit/sagit-vendor.mk)
+
+# Gapps
+GAPPS_VARIANT := pico
+GAPPS_FORCE_DIALER_OVERRIDES := true
+GAPPS_FORCE_PIXEL_LAUNCHER := true
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
