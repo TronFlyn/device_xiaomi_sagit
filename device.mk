@@ -60,7 +60,7 @@ $(call inherit-product, vendor/MiuiCamera/miuicamera.mk)
 $(call inherit-product, vendor/xiaomi/sagit/sagit-vendor.mk)
 
 # Gapps
-GAPPS_VARIANT := stock
+GAPPS_VARIANT := nano
 GAPPS_FORCE_PACKAGE_OVERRIDES := true
 GAPPS_FORCE_PIXEL_LAUNCHER := true
 GAPPS_PACKAGE_OVERRIDES := Chrome
