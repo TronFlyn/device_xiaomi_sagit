@@ -39,3 +39,6 @@ BUILD_FINGERPRINT := Xiaomi/sagit/sagit:8.0.0/OPR1.170623.027/V9.2.3.0.OCAMIEK:u
 
 # ScreenRecorder
 $(call inherit-product-if-exists, vendor/apps/OPScreenRecord/config.mk)
+
+# MiuiCamera
+$(call inherit-product, vendor/apps/MiuiCamera/config.mk)
