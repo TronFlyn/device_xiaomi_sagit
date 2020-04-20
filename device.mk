@@ -57,8 +57,4 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, vendor/xiaomi/sagit/sagit-vendor.mk)
 
 #Gapps
-GAPPS_VARIANT := micro
-GAPPS_FORCE_WEBVIEW_OVERRIDES := true
-GAPPS_FORCE_MMS_OVERRIDES := true
-GAPPS_FORCE_DIALER_OVERRIDES := true
-$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
+$(call inherit-product, vendor/gapps/config.mk)
